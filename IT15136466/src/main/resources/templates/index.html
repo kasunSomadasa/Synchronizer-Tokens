@@ -13,7 +13,26 @@
 </head>
 <body>
 
-	
+	<div class="container">
+		<h3>Welcome, Enter The Login Details</h3>
+		<form method="POST" action="/login" modelAttribute="User">
+
+			<div class="form-group">
+				<label for="username">UserName:</label> <input type="text"
+					name="username" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label for="password">Password:</label> <input type="password"
+					name="password" class="form-control">
+			</div>
+
+			<button type="submit" class="btn btn-primary">Submit</button>
+
+		</form>
+
+
+	</div>
 
 </body>
 </html>
